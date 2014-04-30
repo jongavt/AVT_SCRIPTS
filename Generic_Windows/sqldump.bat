@@ -1,0 +1,1 @@
+mysqldump --user=root --password=avt tsv > mySqlDumpFile.sql

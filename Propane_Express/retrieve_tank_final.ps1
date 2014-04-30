@@ -1,0 +1,2 @@
+for($i=1;$i -le 61;$i++){
+(new-object System.Net.WebClient).DownloadFile("http://translate.google.com/translate_tts?tl=en&q=%22please%20retrieve%20tank%20from%20bay%20+" + $i + "%22","C:\Users\Jon\Downloads\Propane\Retrieve_Tank\p9Msg3-" + $i + ".mp3")}
